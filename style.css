@@ -103,15 +103,19 @@ h1 {
   font-size: 1.375rem;
   font-weight: var(--fw-heading);
 }
+.text p {
+  margin-bottom: 1rem;
+}
 .btn {
   cursor: pointer;
   border: none;
+  text-decoration: none;
+  background-color: #eee;
+  color: var(--clr-Violet);
   padding: 0.7rem 5rem;
   border-radius: 1.5rem;
-  color: var(--clr-Violet);
   transition: background-color 0.15s;
-  /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);*/
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.45);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.45);
   font-size: 0.813rem;
 }
 .btn:is(:hover, :focus){
